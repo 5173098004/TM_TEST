@@ -16,6 +16,9 @@ public class MainTest {
 
 	// 建立审限
 	public static void ConstractShenxian(){
+		
+		System.out.println("+++++++++++++++++++++++++++++++++-----------------------");
+		
 		System.out.println("===========开始建立<商标注册>审限==============");
 		SimpleDateFormat sf = new SimpleDateFormat("yyyy-MM-dd");
 		System.out.println("收文日期：" + sf.format(new Date()) + "，当日不计入审限");	
